@@ -149,6 +149,7 @@ lib/libmono-2.0.a
 lib/libmono-2.0.so
 lib/libmono-2.0.so.1
 lib/libmono-2.0.so.1.0.0
+lib/libmono-btls-shared.so
 lib/libmono-profiler-aot-static.a
 lib/libmono-profiler-aot.a
 lib/libmono-profiler-aot.so

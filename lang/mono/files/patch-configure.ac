@@ -17,3 +17,12 @@
  PLATFORM_AOT_SUFFIX=.so
  fi
  
+@@ -3151,6 +3152,8 @@ case "$host" in
+ 			boehm_supported=false
+ 			;;
+ 		  openbsd*|freebsd*|kfreebsd-gnu*)
++			BTLS_SUPPORTED=yes
++			BTLS_PLATFORM=x86_64
+ 			;;
+ 		  mingw*)
+ 			;;

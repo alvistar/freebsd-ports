@@ -1,5 +1,5 @@
 # Created by: Yukihiro Nakai <nakai@FreeBSD.org>
-# $FreeBSD$
+# $FreeBSD: head/lang/mono/Makefile 460430 2018-01-30 19:00:27Z dbn $
 
 PORTNAME=	mono
 PORTVERSION=	5.2.0.215
@@ -67,9 +67,10 @@ GH_TUPLE=	mono:Lucene.Net.Light:85978b7:1/external/Lucene.Net.Light \
 		mono:linker:c7450ca:18/external/linker \
 		mono:reference-assemblies:142cbeb:10/external/binary-reference-assemblies \
 		mono:roslyn-binaries:dcb0a05:15/external/roslyn-binaries \
-		mono:rx:b29a4b0:11/external/rx
+		mono:rx:b29a4b0:11/external/rx \
+		mono:boringssl:2ba8564:12/external/boringssl
 
-CONFIGURE_ARGS=	--disable-dtrace
+CONFIGURE_ARGS=	--disable-dtrace --enable-btls
 CONFIGURE_ENV=	ac_cv_header_sys_inotify_h=no
 
 MAKE_ENV=	MONO_SHARED_DIR="${WRKDIR}" \

@@ -43,3 +43,5 @@ SHA256 (dotnet-coreclr-c7da48a_GH0.tar.gz) = 68b16590b4e19a88ca729fec064a83a1f7b
 SIZE (dotnet-coreclr-c7da48a_GH0.tar.gz) = 31762105
 SHA256 (dotnet-roslyn-322bd5b_GH0.tar.gz) = 52df2e1ebd6d9d5ce881ca2839fa0970498d7b8782225f3ad738487899cbdb05
 SIZE (dotnet-roslyn-322bd5b_GH0.tar.gz) = 22058637
+SHA256 (mono-boringssl-2ba8564_GH0.tar.gz) = 3d44143d37541e4e029513a9245008fa70af137fce798052358e30ecf54fa502 
+SIZE (mono-boringssl-2ba8564_GH0.tar.gz) = 4122126
